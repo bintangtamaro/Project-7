@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #f5f2f3;
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: black;
+}
+
+nav ul li .active {
+  font-weight: bold;
+}
+
+.nav-left {
+  flex: 50%;
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  margin: 5%;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0 0 15px#565656;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-left {
+  padding: 10%;
+  padding-right: 30%;
+  flex-wrap: wrap;
+}
+
+.contact-button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 23px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.contact2 {
+  display: flex;
+}
+
+a {
+  color: black;
+}
+
+.downloadimg {
+  height: 40;
+  margin-top: 20px;
+}
+
+.container-right {
+  flex: 80%;
+}
+
+.card {
+  width: fit-content;
+  margin: 20% auto;
+  box-shadow: 0 0 15px #565656;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 3px;
+  flex-wrap: ;
+}
+
+.indexSection {
+  display: flex;
+  width: 80%;
+}
+
+.sosmed i {
+  font-size: 50px;
+  margin-right: 28px;
+  color: black;
+  text-align: center;
+}
+
+/*    =Contact Css=     */
+
+.contactform {
+  margin: 50px auto;
+  width: 30%;
+}
+
+.contactform h1 {
+  text-align: center;
+}
+
+.contactform form div {
+  margin-top: 15px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 15px #9f9f9f;
+  resize: none;
+}
+
+.button-submit {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 77%;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #9f9f9f;
+}
+
+.button-submit:hover {
+  background-color: #565656;
+}
+
+#barsmenu {
+  display: none;
+}
+
+.hamburger-nav-container {
+  font-size: 23px;
+  list-style-type: none;
+  /* display: none; */
+}
+
+.hamburger-nav-container a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #9a9a9a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  flex-direction: column;
+}
+
+.hamburger-nav-container .hamburger-active {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-container {
+    width: 100%;
+  }
+}
+
+.left {
+  flex: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  margin-left: 0;
+}
+
+section {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 550);
+ {
+  .skill {
+    flex-direction: column;
+  }
+}
+
+.item-collapse {
+  display: none;
+  flex-direction: column;
+}
+
+#barsmenu {
+  display: block;
+}

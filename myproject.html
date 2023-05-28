@@ -1,0 +1,195 @@
+<do
+  <head>
+    <title> Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/myproject.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <ul>
+          <li>
+            <img src="aseets/images/logo.png" alt="dumbways_logo" />
+          </li>
+          <li>
+            <a class="navbar-home" href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="myproject.html">My Project</a>
+          </li>
+          <li>
+            <a href="testimonials.html">Testimonials</a>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="contact.html">Contact me</a>
+      </div>
+     <div>
+    </nav>
+    <div class="contactform">
+      <h1>ADD MY PROJECT</h1>
+      <form action="" onsubmit="addProject(event)">
+        <div>
+          <label for="inputProject">Project Name</label>
+          <input id="inputProject" type="text" />
+        </div>
+        <div class="dateForm">
+          <div class="dateInput1">
+            <label for="date1">Start Date</label>
+            <input type="date" id="date1" />
+          </div>
+          <div class="dateInput2">
+            <label for="date2">End Date</label>
+            <input type="date" id="date2" />
+          </div>
+        </div>
+        <div>
+          <label for="desc">Description</label>
+          <textarea name="desc" id="desc" cols="20" rows="10"></textarea>
+        </div>
+
+        <div>
+          <h3>Technology</h3>
+          <div>
+            <div class="checkboxForm">
+              <input type="checkbox" id="nodeJs" value="Node Js" />
+              <label for="nodeJs">Node Js</label>
+              <input type="checkbox" id="Go" value="Go" />
+              <label for="Go">Next Js</label>
+            </div>
+            <div class="checkboxForm">
+              <input type="checkbox" id="reactJs" value="React Js" />
+              <label for="reactJs">react Js</label>
+              <input type="checkbox" id="java" value="java" />
+              <label for="java">Java</label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <label>Upload Image</label>
+          <div class="inputBlogImageGroup">
+            <label for="inputImg">
+              <div class="attachImg">
+                <div>
+                  <p>choose</p>
+                </div>
+                <img src="aseets/images/file.png" alt="attach file" />
+              </div>
+            </label>
+          </div>
+          <input type="file" id="inputImg" hidden="hidden" />
+        </div>
+        <button type="submit" class="button-submit" onclick="formAlert()">submit<button>
+      <form>
+    </div>
+
+    
+    <div class="container-blog">
+      <h1>MY PROJECT</h1>
+      <div class="container-grid" id="contents">
+        <div class="item-grid">
+          <img src="aseets/images/narutokecil.jpg" alt="gambarnaruto" />
+          <a href="detailproject.html">
+            <h3>Naruro Dattebayo</h3>
+          </a>
+          <h5>durasi : 2 bulan</h5>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+            illo voluptatum vitae consequuntur consectetur temporibus
+            reprehenderit dolore nihil totam odio.
+          </p>
+          <div class="previewTech">
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-golang"></i>
+          </div>
+          <div class="itemBtn">
+            <button>edit</button>
+            <button>delete</button>
+          </div>
+        </div>
+
+        <div class="container-grid" id="contents">
+          <div class="item-grid">
+            <img src="aseets/images/keluarga naruto.jpg" alt="gambarnaruto" />
+            <a href="detailproject.html">
+              <h3>Boruto</h3>
+            </a>
+            <h5>durasi : 2 bulan</h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+              illo voluptatum vitae consequuntur consectetur temporibus
+              reprehenderit dolore nihil totam odio.
+            </p>
+            <div class="previewTech">
+              <i class="fa-brands fa-node-js"></i>
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-golang"></i>
+            </div>
+            <div class="itemBtn">
+              <button>edit</button>
+              <button>delete</button>
+            </div>
+          </div>
+        
+          <div class="container-grid" id="contents">
+            <div class="item-grid">
+              <img src="aseets/images/onepiece1.png" alt="gambarnaruto" />
+              <a href="detailproject.html">
+                <h3>One Piece</h3>
+              </a>
+              <h5>durasi : 2 bulan</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+                illo voluptatum vitae consequuntur consectetur temporibus
+                reprehenderit dolore nihil totam odio.
+              </p>
+              <div class="previewTech">
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-golang"></i>
+              </div>
+              <div class="itemBtn">
+                <button>edit</button>
+                <button>delete</button>
+              </div>
+            </div>
+
+          <div class="container-grid" id="contents">
+            <div class="item-grid">
+              <img src="aseets/images/onepiece2.jpg" alt="gambarnaruto" />
+              <a href="detailproject.html">
+                <h3>One Piece</h3>
+              </a>
+              <h5>durasi : 2 bulan</h5>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
+                illo voluptatum vitae consequuntur consectetur temporibus
+                reprehenderit dolore nihil totam odio.
+              </p>
+              <div class="previewTech">
+                <i class="fa-brands fa-node-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-golang"></i>
+              </div>
+              <div class="itemBtn">
+                <button>edit</button>
+                <button>delete</button>
+              </div>
+            </div>
+
+
+      </div>
+    </form>
+    </div>
+    <script src="js/myproject.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
